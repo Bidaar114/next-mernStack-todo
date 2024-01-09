@@ -5,7 +5,6 @@ import DoneTodo from './DoneTodo';
 import DeleteTodo from './DeleteTodo';
 
 
-
 interface todoProps {
 
     todo: todoItem;
@@ -27,7 +26,7 @@ const Todo = ({todo}: todoProps ) => {
             
             <div className="flex">
                 <span className="isolate inline-flex rounded-md shadow-sm px-2">
-                    <DoneTodo  key={todo._id} todoId={todo._id} isDone={todo.isDone}  />
+                    <DoneTodo todo={todo}  />
                    
                 </span>
                 <span className="isolate inline-flex rounded-md shadow-sm px-2">

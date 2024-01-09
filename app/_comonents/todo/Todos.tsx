@@ -43,7 +43,7 @@ const Todos = async () => {
         {
             todos.map((todo) =>(
 
-                <Todo todo={todo}/>
+                <Todo key={todo._id}todo={todo}/>
 
             ))
         }
