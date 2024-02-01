@@ -1,4 +1,3 @@
 
 
-export const API_URL = process.env.NODE_URL
- 
+export const API_URL = "https://next-fullstack-todo.vercel.app"
